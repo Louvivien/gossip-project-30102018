@@ -1,0 +1,29 @@
+<h1>Gossip project</h1>
+<p>Welcome to the gossip page</p>
+
+
+
+<table>
+  <tr>
+    <th>Author</th>
+    <th>Gossip</th>
+    <th colspan="10"></th>
+  </tr>
+
+ <% @gossips.each do |gossip| %>
+    <tr>
+      <td><%= gossip.author %></td>
+      <td><%= gossip.content %></td>
+      <td><%= link_to 'Show', "page/#{gossip.id}"  %></td>
+
+  <% end %>
+
+   </table>
+
+
+
+
+
+
+
+
