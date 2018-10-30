@@ -1,6 +1,5 @@
-# README
 
-# README
+# The Gossip Project
 
 ##Made by
 Priscille de la Tour @Pris
